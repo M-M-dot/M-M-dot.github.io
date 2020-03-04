@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-04T05:58:32.645Z</updated>
+  <updated>2020-03-04T08:10:03.689Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>read_book1</title>
+    <link href="http://yoursite.com/2020/03/04/read-book1/"/>
+    <id>http://yoursite.com/2020/03/04/read-book1/</id>
+    <published>2020-03-04T07:58:25.000Z</published>
+    <updated>2020-03-04T08:10:03.689Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="自控力"><a href="#自控力" class="headerlink" title="自控力"></a>自控力</h1><p><strong>作者</strong>： 凯利·麦个尼尔格</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;自控力&quot;&gt;&lt;a href=&quot;#自控力&quot; class=&quot;headerlink&quot; title=&quot;自控力&quot;&gt;&lt;/a&gt;自控力&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;作者&lt;/strong&gt;： 凯利·麦个尼尔格&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="读书笔记" scheme="http://yoursite.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="自控力" scheme="http://yoursite.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E8%87%AA%E6%8E%A7%E5%8A%9B/"/>
+    
+    
+      <category term="读书笔记" scheme="http://yoursite.com/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>test_tag</title>

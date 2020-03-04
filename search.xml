@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>read_book1</title>
+    <url>/2020/03/04/read-book1/</url>
+    <content><![CDATA[<h1 id="自控力"><a href="#自控力" class="headerlink" title="自控力"></a>自控力</h1><p><strong>作者</strong>： 凯利·麦个尼尔格</p>
+]]></content>
+      <categories>
+        <category>读书笔记</category>
+        <category>自控力</category>
+      </categories>
+      <tags>
+        <tag>读书笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>test_tag</title>
     <url>/2020/03/04/test-tag/</url>
     <content><![CDATA[<p>搭建博客时候的参考链接</p>
