@@ -3,11 +3,13 @@
   <entry>
     <title>test_tag</title>
     <url>/2020/03/04/test-tag/</url>
-    <content><![CDATA[<a id="more"></a>
+    <content><![CDATA[<p>搭建博客时候的参考链接</p>
+<a id="more"></a>
 
 <p><a href="https://theme-next.iissnan.com/theme-settings.html" target="_blank" rel="noopener">https://theme-next.iissnan.com/theme-settings.html</a></p>
 <p>分类标签的设置<a href="https://theme-next.iissnan.com/theme-settings.html" target="_blank" rel="noopener">https://theme-next.iissnan.com/theme-settings.html</a></p>
 <p>主题添加评论功能 <a href="https://yashuning.github.io/2018/06/29/hexo-Next-主题添加评论功能/" target="_blank" rel="noopener">https://yashuning.github.io/2018/06/29/hexo-Next-%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD/</a></p>
+<p>hexo 添加search 功能： <a href="https://www.itfanr.cc/2017/10/27/add-search-function-to-hexo-blog/" target="_blank" rel="noopener">https://www.itfanr.cc/2017/10/27/add-search-function-to-hexo-blog/</a></p>
 <p>脚标的写</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">`"title":</span> <span class="string">"Hello World"</span><span class="string">,"date":</span> <span class="string">"2013/7/13 20:46:25"</span><span class="string">;;;`</span></span><br></pre></td></tr></table></figure>
 

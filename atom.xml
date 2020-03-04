@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-04T05:41:42.435Z</updated>
+  <updated>2020-03-04T05:58:32.645Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,18 +21,13 @@
     <link href="http://yoursite.com/2020/03/04/test-tag/"/>
     <id>http://yoursite.com/2020/03/04/test-tag/</id>
     <published>2020-03-04T03:50:16.000Z</published>
-    <updated>2020-03-04T05:41:42.435Z</updated>
+    <updated>2020-03-04T05:58:32.645Z</updated>
     
-    <content type="html"><![CDATA[<a id="more"></a><p><a href="https://theme-next.iissnan.com/theme-settings.html" target="_blank" rel="noopener">https://theme-next.iissnan.com/theme-settings.html</a></p><p>分类标签的设置<a href="https://theme-next.iissnan.com/theme-settings.html" target="_blank" rel="noopener">https://theme-next.iissnan.com/theme-settings.html</a></p><p>主题添加评论功能 <a href="https://yashuning.github.io/2018/06/29/hexo-Next-主题添加评论功能/" target="_blank" rel="noopener">https://yashuning.github.io/2018/06/29/hexo-Next-%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD/</a></p><p>脚标的写</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">`"title":</span> <span class="string">"Hello World"</span><span class="string">,"date":</span> <span class="string">"2013/7/13 20:46:25"</span><span class="string">;;;`</span></span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>搭建博客时候的参考链接</p><a id="more"></a><p><a href="https://theme-next.iissnan.com/theme-settings.html" target="_blank" rel="noopener">https://theme-next.iissnan.com/theme-settings.html</a></p><p>分类标签的设置<a href="https://theme-next.iissnan.com/theme-settings.html" target="_blank" rel="noopener">https://theme-next.iissnan.com/theme-settings.html</a></p><p>主题添加评论功能 <a href="https://yashuning.github.io/2018/06/29/hexo-Next-主题添加评论功能/" target="_blank" rel="noopener">https://yashuning.github.io/2018/06/29/hexo-Next-%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD/</a></p><p>hexo 添加search 功能： <a href="https://www.itfanr.cc/2017/10/27/add-search-function-to-hexo-blog/" target="_blank" rel="noopener">https://www.itfanr.cc/2017/10/27/add-search-function-to-hexo-blog/</a></p><p>脚标的写</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">`"title":</span> <span class="string">"Hello World"</span><span class="string">,"date":</span> <span class="string">"2013/7/13 20:46:25"</span><span class="string">;;;`</span></span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://theme-next.iissnan.com/theme-settings.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://theme-next.iissnan
-      
+      &lt;p&gt;搭建博客时候的参考链接&lt;/p&gt;
     
     </summary>
     
