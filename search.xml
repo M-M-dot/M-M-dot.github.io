@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>test_tag</title>
+    <url>/2020/03/04/test-tag/</url>
+    <content><![CDATA[<a id="more"></a>
+
+<p><a href="https://theme-next.iissnan.com/theme-settings.html" target="_blank" rel="noopener">https://theme-next.iissnan.com/theme-settings.html</a></p>
+<p>分类标签的设置<a href="https://theme-next.iissnan.com/theme-settings.html" target="_blank" rel="noopener">https://theme-next.iissnan.com/theme-settings.html</a></p>
+<p>主题添加评论功能 <a href="https://yashuning.github.io/2018/06/29/hexo-Next-主题添加评论功能/" target="_blank" rel="noopener">https://yashuning.github.io/2018/06/29/hexo-Next-%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD/</a></p>
+<p>脚标的写</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">`"title":</span> <span class="string">"Hello World"</span><span class="string">,"date":</span> <span class="string">"2013/7/13 20:46:25"</span><span class="string">;;;`</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>Blog 搭建</category>
+      </categories>
+      <tags>
+        <tag>PS3</tag>
+        <tag>Games</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>first_blog</title>
+    <url>/2020/03/03/first-blog/</url>
+    <content><![CDATA[<h1 id="CUDA-，-tensorflow-gpu-安装，-openpose-gpu-安装"><a href="#CUDA-，-tensorflow-gpu-安装，-openpose-gpu-安装" class="headerlink" title="CUDA  ， tensorflow_gpu 安装， openpose_gpu 安装"></a>CUDA  ， tensorflow_gpu 安装， openpose_gpu 安装</h1><a id="more"></a>
+
+<p>[TOC]</p>
+<h2 id="版本信息"><a href="#版本信息" class="headerlink" title="版本信息"></a>版本信息</h2><p>windows 10</p>
+<p>显卡： geforce 940mx</p>
+<p>python 3.6 </p>
+<h2 id="（一）-安装CUDA"><a href="#（一）-安装CUDA" class="headerlink" title="（一） 安装CUDA"></a>（一） 安装CUDA</h2><p>CUDA说难，也不难。但是我的确搞了好久才给我这个垃圾显卡安装上CUDA。 这里有很多坑呀！</p>
+<h3 id="1-1-下载-Visual-studio-2017-或者-Visual-studio-2015"><a href="#1-1-下载-Visual-studio-2017-或者-Visual-studio-2015" class="headerlink" title="1.1 下载 Visual studio 2017  或者 Visual  studio  2015"></a>1.1 下载 Visual studio 2017  或者 Visual  studio  2015</h3><pre><code>* **vs studio 一定要比CUDA 先安装， 安装的时候要勾选C++**
+
+* 版本要求： **Microsoft Visual Studio (VS) 2017 Enterprise** or **VS 2015 Enterprise Update 3**
+
+  * 如果可以我建议下载2017 community ， 因为我用2015 编译的时候出过很多的问题， 不过也是可行的，错误案例会放在最后。</code></pre><ul>
+<li>但是CUDA 8.0 要求 vs2015 coumnity 编译，现在不好找了。后面会放上安装包的百度云链接</li>
+</ul>
+<h3 id="1-2下载cmake"><a href="#1-2下载cmake" class="headerlink" title="1.2下载cmake :"></a>1.2下载cmake :</h3><p> <a href="https://cmake.org/download/" target="_blank" rel="noopener">https://cmake.org/download/</a></p>
+<h3 id="1-3查看适用的CUDA版本："><a href="#1-3查看适用的CUDA版本：" class="headerlink" title="1.3查看适用的CUDA版本："></a>1.3查看适用的CUDA版本：</h3><pre><code>查看openpose 的官网，仔细查看官网说明， 要求是**CUDA 10.0 + cudnn 7.5** 或者 **CUDA 8.0 + cudnn5.1** 这里千万要对应，不能错。</code></pre><p><strong>这里的坑就在于，我觉得自己的显卡很差，所以我一直下载的是CUDA8.0 但是其实我应该下载CUda 10.0</strong> </p>
+<p><img src="./first_blog/1565529171910.png" alt="1565529171910"></p>
+<pre><code>注： 安装好了openpose , tensorflow_gpu 也可以用</code></pre><h3 id="1-4下载CUDA："><a href="#1-4下载CUDA：" class="headerlink" title="1.4下载CUDA："></a>1.4下载CUDA：</h3><pre><code>查看自己电脑能安装的显卡，当时我一直以为我的显卡很渣，所以翻来覆去安装了CUDA8.0 好多遍，都没有成功。后来我才发现应该安装CUDA 10.0 </code></pre><ul>
+<li>这里放上链接 CUDA10.0 <a href="https://developer.nvidia.com/cuda-10.0-download-archive?target_os=Windows&amp;target_arch=x86_64&amp;target_version=10&amp;target_type=exelocal" target="_blank" rel="noopener">https://developer.nvidia.com/cuda-10.0-download-archive?target_os=Windows&amp;target_arch=x86_64&amp;target_version=10&amp;target_type=exelocal</a> &gt;</li>
+<li>CUDA10.0 本地版不知道是官网抽风还是咋的，下载非常的慢，所以这里放上百度云的链接：<a href="https://pan.baidu.com/s/12HewZxbDQrR46UP20ccXbg" target="_blank" rel="noopener">https://pan.baidu.com/s/12HewZxbDQrR46UP20ccXbg</a> 提取码：exe4 </li>
+<li>然后安装即可</li>
+<li><strong>注意：</strong><ul>
+<li>如果安装的第一步，系统一致性检验，出现了警告的话， 说明CUDA的版本不对</li>
+<li>安装的最后一步</li>
+</ul>
+</li>
+</ul>
+<h3 id="1-5下载对应版本的cudnn"><a href="#1-5下载对应版本的cudnn" class="headerlink" title="1.5下载对应版本的cudnn :"></a>1.5下载对应版本的cudnn :</h3><p>解压之后，将文件中的<code>cudnn-10.0-windows10-x64-v7.5.0.56\cuda\</code> 下的文件 <code>bin</code> <code>lib``include</code> 复制到对应CUDA 中<code>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin</code> 目录下对应的文件夹中。</p>
+<ul>
+<li><p>注意： </p>
+<ul>
+<li>这里很容易错的地方，我前面一直看混了，就是C盘下面有三个文件长得很像  <code>Program Files, Program Files(x86), ProgramData</code> 其实<code>ProgramData</code> 和 <code>Program Files</code> 里面都有 <code>NVIDIA GPU Computing Toolkit</code> 文件，但是经过对比会发现<code>Program File</code> 这个文件里面的东西明显要多一些。 所以在复制<code>cudnn</code>的时候，复制到<strong>Program Files</strong>对应的<code>NVIDIA GPU Computing Toolkit</code> 下面。<pre><code>* 由于前面看错了，所以我有几次一直恐慌找不到`CUDA Samples` 这个文件，其实它在`ProgramData    `路径是`C:\ProgramData\NVIDIA Corporation\CUDA Samples` </code></pre></li>
+</ul>
+</li>
+<li><p>检验环境变量是否好了，一般在安装结束之后会自动出现，CUDA_PATH , CUDA_PATH_V10_0 这里的V10_0 对应的 10.0 的版本号。 如果是v 8.0 版本，则是 V8_0 . </p>
+<ul>
+<li><p><img src="C:/Users/51741/AppData/Roaming/Typora/typora-user-images/1565532794807.png" alt="1565532794807"></p>
+</li>
+<li><p>其中CUDA 是我自己加的，如果你的<code>path</code>环境变量太多的话，超出了它设定的长度,<strong>报错如下图</strong>。</p>
+<ul>
+<li>将想要加入<code>path</code> 的路径单独命名 ,比如说为 <code>CUDA</code> ，然后 将%CUDA%加入<code>path</code> 即可</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<pre><code>* ![1565533079777](C:/Users/51741/AppData/Roaming/Typora/typora-user-images/1565533079777.png)</code></pre><ul>
+<li><p>上面三个变量的内容是：</p>
+<ul>
+<li><pre><code>CUDA  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\libnvvp;
+CUDA_PATH  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0
+CUDA_PATH_V10_0 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0
+然后再在 path 中 添加 %CUDA%，　（如果你的ｐａｔｈ的长度还够用，CUDA安装时会自动添加上　％CUDA％　的环境变量，你不用操心了）
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="bullet">* </span>检验环境变量是否配好：</span><br><span class="line"></span><br><span class="line"><span class="bullet">  * </span>打开ｃｍｄ：　<span class="code">`nvcc -V`</span> </span><br><span class="line"><span class="bullet">  * </span>下图说明配好了</span><br><span class="line"><span class="bullet">  * </span>![<span class="string">1565533710508</span>](<span class="link">C:/Users/51741/AppData/Roaming/Typora/typora-user-images/1565533710508.png</span>)</span><br><span class="line"></span><br><span class="line"><span class="bullet">* </span>检验是否安装好：</span><br><span class="line"></span><br><span class="line"><span class="bullet">  * </span><span class="code">`C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\extras\demo_suite`</span> 这里面有很多exe 文件， <span class="code">`deviceQuery.exe`</span> 在命令行里面运行，如果出现｀ｐａｓｓ｀　说明是安装成功了。但是这并不能说明啥，如果你的版本不对，它照样会 <span class="code">`pass`</span> 。 </span><br><span class="line"></span><br><span class="line"><span class="bullet">  * </span>所以后面安装不成功，很有可能是版本问题。 大胆重装吧。</span><br><span class="line"></span><br><span class="line">  </span><br><span class="line"></span><br><span class="line"><span class="section">## （二）安装tensorflow  GPU 版本</span></span><br><span class="line"></span><br><span class="line"><span class="section">###  2.1 安装tensorfow gpu</span></span><br><span class="line"></span><br><span class="line">打开  cmd <span class="code">`pip install tensorflow_gpu`</span></span><br><span class="line"></span><br><span class="line"><span class="section">### 2.2检验是否安装成功</span></span><br><span class="line"></span><br><span class="line">首先导入tensorflow:</span><br></pre></td></tr></table></figure>
+import tensorflow as tf
+a = tf.constant([1.0, 2.0, 3.0, 4.0, 5.0, 6.0], shape=[2, 3], name=&apos;a&apos;)
+b = tf.constant([1.0, 2.0, 3.0, 4.0, 5.0, 6.0], shape=[3, 2], name=&apos;b&apos;)
+c = tf.matmul(a, b)
+</code></pre></li>
+</ul>
+</li>
+</ul>
+<p>sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))</p>
+<p>print (sess.run(c))</p>
+<p>```</p>
+<ul>
+<li><p>如果这个案例不报错的话，则是安装成功了</p>
+</li>
+<li><p>如果报错的话……千奇百怪呀</p>
+<ul>
+<li>import tensorflow 这里报错了，<code>DLL load failed</code> <ul>
+<li>解决： 报这个错的原因有很多， 一种说法是默认的protobuf 3.1本版过高，pip install protobuf==3.6.0，我的的确是这个问题</li>
+<li>如果这个方法不能解决，请参考<strong>更多tensorflow 安装报错情况请参考</strong> 部分</li>
+</ul>
+</li>
+<li></li>
+</ul>
+</li>
+</ul>
+<h2 id="（三）安装openpose-gpu"><a href="#（三）安装openpose-gpu" class="headerlink" title="（三）安装openpose  gpu"></a>（三）安装openpose  gpu</h2><p>参考CPU 版本的安装， <strong>唯一的不同是在Cmake 的时候CPU_MODEL 选择ＣＵＤＡ　而不是CPU＿only  (这个是默认的)</strong></p>
+<p><img src="C:/Users/51741/AppData/Roaming/Typora/typora-user-images/1565536280525.png" alt="1565536280525"></p>
+<h2 id="（四）错误："><a href="#（四）错误：" class="headerlink" title="（四）错误："></a>（四）错误：</h2><h3 id="4-1（openpose-）显存不够大："><a href="#4-1（openpose-）显存不够大：" class="headerlink" title="4.1（openpose ）显存不够大："></a>4.1（openpose ）显存不够大：</h3><ol>
+<li><code>Check failed: error == cudaSuccess (2 vs. 0)  out of memory</code>  这个是因为显存不够大，除了换电脑，似乎没有别的解决办法。 但是可以用来跑COCO 就不会出问题了</li>
+</ol>
+<p><img src="C:/Users/51741/AppData/Roaming/Typora/typora-user-images/1565528718184.png" alt="1565528718184"></p>
+<pre><code>2.  参考官网：&lt;https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/installation.md&gt;</code></pre><p><img src="C:/Users/51741/AppData/Roaming/Typora/typora-user-images/1565529007264.png" alt="1565529007264"></p>
+<h3 id="4-2（open-pose）安装路径太长："><a href="#4-2（open-pose）安装路径太长：" class="headerlink" title="4.2（open pose）安装路径太长："></a>4.2（open pose）安装路径太长：</h3><h3 id="｀Error-Code-MSB3491-The-specified-path-is-too-long-260-characters-problem｀"><a href="#｀Error-Code-MSB3491-The-specified-path-is-too-long-260-characters-problem｀" class="headerlink" title="｀Error Code MSB3491: The specified path is too long, 260 characters problem｀"></a>｀Error Code MSB3491: The specified path is too long, 260 characters problem｀</h3><p><img src="C:/Users/51741/AppData/Roaming/Typora/typora-user-images/1565529921932.png" alt="1565529921932"></p>
+<p>解决办法：把路径变短一点， <a href="https://github.com/openMVG/openMVG/issues/754" target="_blank" rel="noopener">https://github.com/openMVG/openMVG/issues/754</a> </p>
+<h3 id="4-3-更多tensorflow-安装报错情况请参考："><a href="#4-3-更多tensorflow-安装报错情况请参考：" class="headerlink" title="4.3 更多tensorflow 安装报错情况请参考："></a>4.3 更多tensorflow 安装报错情况请参考：</h3><p> <a href="https://blog.csdn.net/XCCCCZ/article/details/80385448" target="_blank" rel="noopener">https://blog.csdn.net/XCCCCZ/article/details/80385448</a> 这个说明了安装geforce 940mx 安装cuda的时候的一些错误</p>
+<h3 id="4-4-Cuda-10-0-下载地址"><a href="#4-4-Cuda-10-0-下载地址" class="headerlink" title="4.4 Cuda 10.0 下载地址"></a>4.4 Cuda 10.0 下载地址</h3><ol>
+<li>cuda 10.0 的本地版下载不成功，并且下载的是网络版的， 据说得用vpn 且全局模式</li>
+</ol>
+<h3 id="4-5-（visual-studio-Windows-SDK-问题：报错"><a href="#4-5-（visual-studio-Windows-SDK-问题：报错" class="headerlink" title="4.5  （visual studio) Windows SDK 问题：报错"></a>4.5  （visual studio) Windows SDK 问题：报错</h3><ol>
+<li>VS2017 15.7.5 CUDA工程设置Windows SDK版本不成功-VS2017 15.7.5 CUDA project setting Windows SDK version is unsuccessful用vs studio </li>
+<li>解决如下：</li>
+<li><img src="https://developercommunity.visualstudio.com/storage/temp/35369-norepro.gif" alt="img"></li>
+</ol>
+<h3 id="4-6-在执行exe-的时候，-出现-找不到dll-的错误"><a href="#4-6-在执行exe-的时候，-出现-找不到dll-的错误" class="headerlink" title="4.6  在执行exe 的时候， 出现 找不到dll 的错误"></a>4.6  在执行exe 的时候， 出现 找不到dll 的错误</h3><p><img src="C:/Users/51741/AppData/Roaming/Typora/typora-user-images/1565537825759.png" alt="1565537825759"></p>
+<p>解决办法，将所有的dll 文件复制到 release folder </p>
+]]></content>
+      <tags>
+        <tag>install 	cuda</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/03/03/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<a id="more"></a>
+
+<p>Quick Start</p>
+<h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+</search>
