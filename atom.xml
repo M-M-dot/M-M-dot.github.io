@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://m-m-dot.github.io/"/>
-  <updated>2020-03-08T10:03:10.486Z</updated>
+  <updated>2020-03-08T13:38:35.515Z</updated>
   <id>https://m-m-dot.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://m-m-dot.github.io/2020/03/08/HexoBlog-Picture/"/>
     <id>https://m-m-dot.github.io/2020/03/08/HexoBlog-Picture/</id>
     <published>2020-03-08T09:47:08.000Z</published>
-    <updated>2020-03-08T10:03:10.486Z</updated>
+    <updated>2020-03-08T13:38:35.515Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="hexo-搭建博客中的图片放置问题"><a href="#hexo-搭建博客中的图片放置问题" class="headerlink" title="hexo 搭建博客中的图片放置问题"></a>hexo 搭建博客中的图片放置问题</h1><p>参考这篇<a href="https://blog.csdn.net/xjm850552586/article/details/84101345" target="_blank" rel="noopener">Blog</a></p><p><strong>主要注意的点</strong>：</p><ul><li><p>图片路径需要相对路径</p><figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">Right:</span>   .<span class="regexp">/HexoBlog-Picture/</span><span class="number">1583661242633.</span>png</span><br><span class="line"><span class="string">False:</span>   HexoBlog-Picture/<span class="number">1583661242633.</span>png</span><br></pre></td></tr></table></figure></li><li><p>需要修改根目录的 <code>_config.yml</code>  中</p><p>url 的地址是github 的地址</p><p><img src="/M-M-dot/M-M-dot.github.io/2020/03/08/HexoBlog-Picture/1583661242633.png" alt="1583661242633"></p></li><li><p>可以通过 <code>F12</code>查看网页源码查看图片路径 ，寻找问题所在</p><p><img src="/M-M-dot/M-M-dot.github.io/2020/03/08/HexoBlog-Picture/1583661551588.png" alt="1583661551588"></p></li></ul>]]></content>
+    <content type="html"><![CDATA[<h1 id="hexo-搭建博客中的图片放置问题"><a href="#hexo-搭建博客中的图片放置问题" class="headerlink" title="hexo 搭建博客中的图片放置问题"></a>hexo 搭建博客中的图片放置问题</h1><p>参考这篇<a href="https://blog.csdn.net/xjm850552586/article/details/84101345" target="_blank" rel="noopener">Blog</a></p><p><strong>主要注意的点</strong>：</p><ul><li><p>图片路径需要相对路径</p><figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">Right:</span>   .<span class="regexp">/HexoBlog-Picture/</span><span class="number">1583661242633.</span>png</span><br><span class="line"><span class="string">False:</span>   HexoBlog-Picture/<span class="number">1583661242633.</span>png</span><br></pre></td></tr></table></figure></li><li><p>需要修改根目录的 <code>_config.yml</code>  中</p><p>url 的地址是github 的地址</p><p><img src="/2020/03/08/HexoBlog-Picture/1583661242633.png" alt="1583661242633"></p></li><li><p>可以通过 <code>F12</code>查看网页源码查看图片路径 ，寻找问题所在</p><p><img src="/2020/03/08/HexoBlog-Picture/1583661551588.png" alt="1583661551588"></p></li></ul>]]></content>
     
     <summary type="html">
     

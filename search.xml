@@ -11,10 +11,10 @@
 </li>
 <li><p>需要修改根目录的 <code>_config.yml</code>  中</p>
 <p>url 的地址是github 的地址</p>
-<p><img src="/M-M-dot/M-M-dot.github.io/2020/03/08/HexoBlog-Picture/1583661242633.png" alt="1583661242633"></p>
+<p><img src="/2020/03/08/HexoBlog-Picture/1583661242633.png" alt="1583661242633"></p>
 </li>
 <li><p>可以通过 <code>F12</code>查看网页源码查看图片路径 ，寻找问题所在</p>
-<p><img src="/M-M-dot/M-M-dot.github.io/2020/03/08/HexoBlog-Picture/1583661551588.png" alt="1583661551588"></p>
+<p><img src="/2020/03/08/HexoBlog-Picture/1583661551588.png" alt="1583661551588"></p>
 </li>
 </ul>
 ]]></content>
