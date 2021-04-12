@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>日常流水</title>
+    <url>/2021/04/11/%E6%97%A5%E5%B8%B8%E6%B5%81%E6%B0%B4/</url>
+    <content><![CDATA[<h2 id="2021-4-10"><a href="#2021-4-10" class="headerlink" title="2021/4/10"></a>2021/4/10</h2><p>复盘： </p>
+<ol>
+<li>早上起床比较晚，缺乏惊醒感。晚上早点睡，带上眼罩耳塞直接睡。早上一醒来就翻身起床。</li>
+<li>早上出门预备时间太长……把手机一放干啥都快</li>
+<li>在下午做毕业设计的时候，逃避心理很严重。 </li>
+<li>晚上单词至少背了。 </li>
+<li>这周没有联系HipHop，去上课的时候，跟不太上，但是老师挺好。可以多练习一下。</li>
+</ol>
+<p>时间流水： </p>
+<p>8:00 醒，11:20 起床 一直在床上玩手机，模模糊糊，睡了又醒，醒了又睡</p>
+<p>11:20——14:00  洗漱、卷头发、化妆、买咖啡、聊天 、洗衣服、买午饭 </p>
+<p>14:00——17:20 学习三小时</p>
+<p>17:20 ——17:30 打游戏</p>
+<p>17:40——18:00 换衣服出门</p>
+<p>18:00——20:30 去跳HipHop， 回寝室</p>
+<p>20:30——21:30 背单词</p>
+<p>21:30——22:00 洗澡</p>
+<p>22:00——23:30 打游戏</p>
+<p>23:30——00:55 准备睡觉，洗漱，刷手机</p>
+<p>如果心情不好焦虑烦躁，可能的原因有： </p>
+<p>重要程度由上到下</p>
+<ul>
+<li><p>今日学习时间不足三小时</p>
+</li>
+<li><p>起床太晚</p>
+</li>
+<li><p>早上没有喝咖啡</p>
+</li>
+<li><p>至少有五天没有运动</p>
+</li>
+<li><p>吃得太饱</p>
+</li>
+<li><p>裤子不舒服，腰太紧</p>
+</li>
+</ul>
+<p>症状表现为: </p>
+<p>不断自言自语骂自己是傻逼，憨憨，废物，垃圾</p>
+<p>特别想玩游戏</p>
+<p>一般借口是，今天不舒服，明天再好好学习吧</p>
+<p>会沉迷于做计划</p>
+]]></content>
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>高效能人士的七个习惯</title>
     <url>/2021/03/17/%E9%AB%98%E6%95%88%E8%83%BD%E4%BA%BA%E5%A3%AB%E7%9A%84%E4%B8%83%E4%B8%AA%E4%B9%A0%E6%83%AF/</url>
     <content><![CDATA[<p>[toc]</p>
@@ -170,9 +218,9 @@
 
 
 
-
-
 <h2 id="参考："><a href="#参考：" class="headerlink" title="参考："></a>参考：</h2><p><a href="https://www.cnblogs.com/nxf-rabbit75/p/10105271.html" target="_blank" rel="noopener">https://www.cnblogs.com/nxf-rabbit75/p/10105271.html</a></p>
+<h1 id="Sklearn"><a href="#Sklearn" class="headerlink" title="Sklearn"></a>Sklearn</h1><h2 id="聚类"><a href="#聚类" class="headerlink" title="聚类"></a>聚类</h2><h3 id="kmeans"><a href="#kmeans" class="headerlink" title="kmeans :"></a>kmeans :</h3><h3 id="层次聚类"><a href="#层次聚类" class="headerlink" title="层次聚类"></a>层次聚类</h3><h3 id="其它方法"><a href="#其它方法" class="headerlink" title="其它方法"></a>其它方法</h3><h2 id="聚类可视化TSN-降维度-搞清楚它的原理"><a href="#聚类可视化TSN-降维度-搞清楚它的原理" class="headerlink" title="聚类可视化TSN 降维度 搞清楚它的原理"></a>聚类可视化TSN 降维度 搞清楚它的原理</h2><p><a href="https://blog.csdn.net/lbweiwan/article/details/82759670" target="_blank" rel="noopener">https://blog.csdn.net/lbweiwan/article/details/82759670</a></p>
+<p>这里的代码中的知识点需要了解</p>
 <h1 id="mysql"><a href="#mysql" class="headerlink" title="mysql"></a>mysql</h1><h3 id="问题："><a href="#问题：" class="headerlink" title="问题："></a>问题：</h3><figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line">C:\Windows\system32&gt;mysql -u mwj -p</span><br><span class="line">Enter password: **********</span><br><span class="line"><span class="builtin-name">ERROR</span> 1045 (28000): Access denied <span class="keyword">for</span><span class="built_in"> user </span><span class="string">'mwj'</span>@<span class="string">'localhost'</span> (using password: <span class="literal">YES</span>)</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>数据科学专业</category>
